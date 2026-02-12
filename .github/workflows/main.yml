@@ -21,9 +21,9 @@ jobs:
         uses: actions/checkout@v3
       
       - name: Setup Pages
-        uses: ac*ons/configure-pages@v4
+        uses: actions/configure-pages@v4
       - name: Upload Artifact
-        uses: ac*ons/upload-pages-ar*fact@v3
+        uses: actions/upload-pages-artifact@v3
         with:
           path: '.' 
     
