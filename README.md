@@ -1,4 +1,12 @@
 # group-project-repo-2025-2026-CS-09
+
+# Quick reference on accessing the database
+Write stuff here later Thomas, include example code
+
+
+
+
+
 # Society Communication App
 A centralised platform allowing university students to browse all clubs & society events, communicate with societies, and manage their student life in one place.
 
