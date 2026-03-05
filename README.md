@@ -3,7 +3,7 @@
 # Quick reference on accessing the database
 Write stuff here later Thomas, include example code
 
-
+Code in pulling any and all data you think will be needed from the table. Just do it all and see what ain't needed, standups say which you have and havent done
 
 
 
