@@ -3075,11 +3075,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD Group TDJ\\UnitTests\\UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD TDJ SQL Backend\\UnitTests\\UnitTests.csproj",
       "projectName": "UnitTests",
-      "projectPath": "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD Group TDJ\\UnitTests\\UnitTests.csproj",
+      "projectPath": "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD TDJ SQL Backend\\UnitTests\\UnitTests.csproj",
       "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD Group TDJ\\UnitTests\\obj\\",
+      "outputPath": "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD TDJ SQL Backend\\UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3096,8 +3096,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD Group TDJ\\Backend\\Backend.csproj": {
-              "projectPath": "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD Group TDJ\\Backend\\Backend.csproj"
+            "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD TDJ SQL Backend\\Backend\\Backend.csproj": {
+              "projectPath": "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD TDJ SQL Backend\\Backend\\Backend.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD Group TDJ\\Backend\\Backend.csproj": {}
+    "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD TDJ SQL Backend\\Backend\\Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD Group TDJ\\Backend\\Backend.csproj": {
+    "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD TDJ SQL Backend\\Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD Group TDJ\\Backend\\Backend.csproj",
+        "projectUniqueName": "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD TDJ SQL Backend\\Backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD Group TDJ\\Backend\\Backend.csproj",
+        "projectPath": "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD TDJ SQL Backend\\Backend\\Backend.csproj",
         "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD Group TDJ\\Backend\\obj\\",
+        "outputPath": "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD TDJ SQL Backend\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
