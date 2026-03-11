@@ -1,4 +1,5 @@
 ﻿using Microsoft.Data.SqlClient;
+using System.Net.WebSockets;
 
 namespace Backend
 {
@@ -49,6 +50,18 @@ namespace Backend
                         }
                         return result;
                     }
+                }
+            }
+        }
+
+        public void writeToDatabase(string SQL)
+        {
+            using (var conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                using (var cmd = new SqlCommand(SQL, conn))
+                {
+                    cmd.ExecuteNonQuery();
                 }
             }
         }
