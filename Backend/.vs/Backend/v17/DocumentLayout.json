@@ -1,21 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD TDJ SQL Backend\\Backend\\",
+  "WorkspaceRootPath": "C:\\Users\\898456\\source\\repos\\group-project-repo-2025-2026-CS-09\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D1BAF26-AC4B-4A4E-8B80-C3FCE9295457}|Backend.csproj|c:\\users\\thomas\\documents\\uni code\\ddd tdj sql backend\\backend\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7D1BAF26-AC4B-4A4E-8B80-C3FCE9295457}|Backend.csproj|c:\\users\\898456\\source\\repos\\group-project-repo-2025-2026-cs-09\\backend\\posts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D1BAF26-AC4B-4A4E-8B80-C3FCE9295457}|Backend.csproj|solutionrelative:posts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D1BAF26-AC4B-4A4E-8B80-C3FCE9295457}|Backend.csproj|c:\\users\\898456\\source\\repos\\group-project-repo-2025-2026-cs-09\\backend\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D1BAF26-AC4B-4A4E-8B80-C3FCE9295457}|Backend.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D1BAF26-AC4B-4A4E-8B80-C3FCE9295457}|Backend.csproj|c:\\users\\898456\\source\\repos\\group-project-repo-2025-2026-cs-09\\backend\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D1BAF26-AC4B-4A4E-8B80-C3FCE9295457}|Backend.csproj|solutionrelative:chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D1BAF26-AC4B-4A4E-8B80-C3FCE9295457}|Backend.csproj|c:\\users\\thomas\\documents\\uni code\\ddd tdj sql backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7D1BAF26-AC4B-4A4E-8B80-C3FCE9295457}|Backend.csproj|c:\\users\\898456\\source\\repos\\group-project-repo-2025-2026-cs-09\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D1BAF26-AC4B-4A4E-8B80-C3FCE9295457}|Backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D1BAF26-AC4B-4A4E-8B80-C3FCE9295457}|Backend.csproj|c:\\users\\thomas\\documents\\uni code\\ddd tdj sql backend\\backend\\sqlaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7D1BAF26-AC4B-4A4E-8B80-C3FCE9295457}|Backend.csproj|c:\\users\\898456\\source\\repos\\group-project-repo-2025-2026-cs-09\\backend\\sqlaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D1BAF26-AC4B-4A4E-8B80-C3FCE9295457}|Backend.csproj|solutionrelative:sqlaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7AEE199-E2F8-49F4-AAC3-BA718E7B812A}|..\\UnitTests\\UnitTests.csproj|c:\\users\\thomas\\documents\\uni code\\ddd tdj sql backend\\unittests\\chattest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,75 +29,78 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 225,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SQLAccess.cs",
-              "DocumentMoniker": "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD TDJ SQL Backend\\Backend\\SQLAccess.cs",
-              "RelativeDocumentMoniker": "SQLAccess.cs",
-              "ToolTip": "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD TDJ SQL Backend\\Backend\\SQLAccess.cs",
-              "RelativeToolTip": "SQLAccess.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAIwD8AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T18:21:45.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ChatTest.cs",
-              "DocumentMoniker": "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD TDJ SQL Backend\\UnitTests\\ChatTest.cs",
-              "RelativeDocumentMoniker": "..\\UnitTests\\ChatTest.cs",
-              "ToolTip": "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD TDJ SQL Backend\\UnitTests\\ChatTest.cs",
-              "RelativeToolTip": "..\\UnitTests\\ChatTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T16:18:55.697Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 113,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Chat.cs",
-              "DocumentMoniker": "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD TDJ SQL Backend\\Backend\\Chat.cs",
-              "RelativeDocumentMoniker": "Chat.cs",
-              "ToolTip": "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD TDJ SQL Backend\\Backend\\Chat.cs",
-              "RelativeToolTip": "Chat.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAowHQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T15:40:38.588Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 462,
+          "DockedWidth": 118,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD TDJ SQL Backend\\Backend\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD TDJ SQL Backend\\Backend\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAuwD0AAAAAAAAAAAAAAA==",
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\898456\\source\\repos\\group-project-repo-2025-2026-CS-09\\Backend\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "C:\\Users\\898456\\source\\repos\\group-project-repo-2025-2026-CS-09\\Backend\\Login.cs",
+              "RelativeToolTip": "Login.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T16:19:21.625Z",
+              "WhenOpened": "2026-03-12T11:14:18.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Chat.cs",
+              "DocumentMoniker": "C:\\Users\\898456\\source\\repos\\group-project-repo-2025-2026-CS-09\\Backend\\Chat.cs",
+              "RelativeDocumentMoniker": "Chat.cs",
+              "ToolTip": "C:\\Users\\898456\\source\\repos\\group-project-repo-2025-2026-CS-09\\Backend\\Chat.cs",
+              "RelativeToolTip": "Chat.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAgwB0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T11:14:19.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\898456\\source\\repos\\group-project-repo-2025-2026-CS-09\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\898456\\source\\repos\\group-project-repo-2025-2026-CS-09\\Backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T11:14:18.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SQLAccess.cs",
+              "DocumentMoniker": "C:\\Users\\898456\\source\\repos\\group-project-repo-2025-2026-CS-09\\Backend\\SQLAccess.cs",
+              "RelativeDocumentMoniker": "SQLAccess.cs",
+              "ToolTip": "C:\\Users\\898456\\source\\repos\\group-project-repo-2025-2026-CS-09\\Backend\\SQLAccess.cs",
+              "RelativeToolTip": "SQLAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T11:14:17.51Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 282,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Posts.cs",
+              "DocumentMoniker": "C:\\Users\\898456\\source\\repos\\group-project-repo-2025-2026-CS-09\\Backend\\Posts.cs",
+              "RelativeDocumentMoniker": "Posts.cs",
+              "ToolTip": "C:\\Users\\898456\\source\\repos\\group-project-repo-2025-2026-CS-09\\Backend\\Posts.cs",
+              "RelativeToolTip": "Posts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T11:35:09.196Z",
               "EditorCaption": ""
             }
           ]

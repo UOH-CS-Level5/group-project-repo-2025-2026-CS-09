@@ -111,7 +111,7 @@
             List<int> messagesIDs = SQLAccess.readFromDatabase(messageCount).Cast<int>().ToList();
 
 
-            string sql = "INSERT INTO Message VALUES (" + (messagesIDs.Count + 1) + ", " + chatID + ", " + userID + ", '" + message + "', null, '" + senderTime + "')";
+            string sql = "INSERT INTO Message VALUES (" + (messagesIDs.Count + 1) + ", " + chatID + ", " + userID + ", '" + message + "', null, '" + sendTime + "')";
 
             try
             {

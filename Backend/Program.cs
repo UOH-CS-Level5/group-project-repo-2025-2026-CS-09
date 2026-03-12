@@ -26,7 +26,7 @@ SQLAccess SQLAccess = new SQLAccess();
 
 int userID = 3;
 
-Chat chat = new Chat(SQLAccess);
+/*Chat chat = new Chat(SQLAccess);
 
 List<string> chatNames = chat.usersChatNames(userID);
 List<int> chatIDs = chat.userChatIDs(userID);
@@ -59,4 +59,9 @@ for (int a = 0; a < senders.Count; a++)
 
 Console.WriteLine("\nWrite a new message:");
 string message = Console.ReadLine();
-bool success = chat.newMessage((input-1), userID, message);
+bool success = chat.newMessage((chatIDs[input-1]), userID, message);*/
+
+Posts posts = new Posts(SQLAccess);
+
+List<int> postIDS = posts.usersSocIDs(userID);
+Console.ReadLine();
