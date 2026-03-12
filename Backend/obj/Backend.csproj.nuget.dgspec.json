@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\898456\\Source\\Repos\\group-project-repo-2025-2026-CS-09\\Backend\\Backend.csproj": {}
+    "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD TDJ SQL Backend\\Backend\\Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\898456\\Source\\Repos\\group-project-repo-2025-2026-CS-09\\Backend\\Backend.csproj": {
+    "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD TDJ SQL Backend\\Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\898456\\Source\\Repos\\group-project-repo-2025-2026-CS-09\\Backend\\Backend.csproj",
+        "projectUniqueName": "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD TDJ SQL Backend\\Backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "C:\\Users\\898456\\Source\\Repos\\group-project-repo-2025-2026-CS-09\\Backend\\Backend.csproj",
-        "packagesPath": "C:\\Users\\898456\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\898456\\Source\\Repos\\group-project-repo-2025-2026-CS-09\\Backend\\obj\\",
+        "projectPath": "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD TDJ SQL Backend\\Backend\\Backend.csproj",
+        "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thomas\\Documents\\Uni Code\\DDD TDJ SQL Backend\\Backend\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\898456\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -72,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
