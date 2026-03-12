@@ -1,0 +1,80 @@
+USE master
+Go
+IF NOT EXISTS(
+	SELECT name
+	FROM sys.databases
+	WHERE name = N'DDDTest'
+	)
+CREATE DATABASE [DDDTest]
+GO
+
+USE DDDTest
+GO
+
+CREATE TABLE Users (
+	UserID INT PRIMARY KEY,
+	Name NVARCHAR(50),
+	Password NVARCHAR(50),
+	Society BIT,
+	Admin Bit
+);
+GO
+
+CREATE TABLE Posts (
+	PostID INT PRIMARY KEY,
+	SocietyID INT,
+	Text NVARCHAR(500),
+	Image IMAGE,
+	PostTime DATETIME,
+	FOREIGN KEY (SocietyID) REFERENCES Users(UserID)
+);
+GO
+
+CREATE TABLE PostResponce (
+	ResponceID INT PRIMARY KEY,
+	PostID INT,
+	StudentID INT,
+	ResponceType INT,
+	Text NVARCHAR(500),
+	FOREIGN KEY (PostID) REFERENCES Posts(PostID),
+	FOREIGN KEY (StudentID) REFERENCES Users(UserID)
+);
+GO
+
+CREATE TABLE SocietyMembers (
+	MembersID INT PRIMARY KEY,
+	SocietyID INT,
+	StudentID INT,
+	FOREIGN KEY (SocietyID) REFERENCES Users(UserID),
+	FOREIGN KEY (StudentID) REFERENCES Users(UserID)
+);
+GO
+
+CREATE TABLE Chats (
+	ChatID INT PRIMARY KEY,
+	SocietyID INT,
+	ChatName NVARCHAR(25),
+	FOREIGN KEY (SocietyID) REFERENCES Users(UserID)
+);
+GO
+
+CREATE TABLE ChatMembers (
+	ChatMID INT PRIMARY KEY,
+	ChatID INT,
+	MembersID INT,
+	FOREIGN KEY (ChatID) REFERENCES Chats(ChatID),
+	FOREIGN KEY (MembersID) REFERENCES SocietyMembers(MembersID)
+);
+GO
+
+CREATE TABLE  Message (
+	MessageID INT PRIMARY KEY,
+	ChatID INT,
+	SenderID INT,
+	Text NVARCHAR(500),
+	Image IMAGE,
+	PostTime DATETIME,
+	FOREIGN KEY (ChatID) REFERENCES Chats(ChatID),
+	FOREIGN KEY (SenderID) REFERENCES Users(UserID)
+);
+GO
