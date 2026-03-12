@@ -23,7 +23,7 @@ GO
 CREATE TABLE Posts (
 	PostID INT PRIMARY KEY,
 	SocietyID INT,
-	Title NVCHAR(100),
+	Title NVARCHAR(100),
 	Text NVARCHAR(500),
 	Image IMAGE,
 	PostTime DATETIME,
@@ -80,3 +80,4 @@ CREATE TABLE  Message (
 );
 
 GO
+
