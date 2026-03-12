@@ -12,11 +12,11 @@ INSERT INTO Users (UserID, Name, Password, Society, Admin) VALUES
 (8, 'Fiona Gallagher', 'pass123', 0, 0);
 GO
 
-INSERT INTO Posts (PostID, SocietyID, Text, Image, PostTime) VALUES
-(1, 1, 'Welcome to the Computer Science Society!', NULL, GETDATE()),
-(2, 1, 'Weekly coding challenge is live.', NULL, GETDATE()),
-(3, 2, 'Robotics workshop this Friday.', NULL, GETDATE()),
-(4, 2, 'Competition registration is now open.', NULL, GETDATE());
+INSERT INTO Posts (PostID, SocietyID, Title, Text, Image, PostTime) VALUES
+(1, 1, 'WELCOME', 'Welcome to the Computer Science Society!', NULL, GETDATE()),
+(2, 1, 'Coding Challenge', 'Weekly coding challenge is live.', NULL, GETDATE()),
+(3, 2, 'Workshop', 'Robotics workshop this Friday.', NULL, GETDATE()),
+(4, 2, 'Competition', 'Competition registration is now open.', NULL, GETDATE());
 GO
 
 INSERT INTO PostResponce (ResponceID, PostID, StudentID, ResponceType, Text) VALUES
@@ -61,4 +61,5 @@ INSERT INTO Message (MessageID, ChatID, SenderID, Text, Image, PostTime) VALUES
 (6, 3, 7, 'Yes at 5 PM.', NULL, GETDATE()),
 (7, 3, 8, 'I will be there.', NULL, GETDATE()),
 (8, 1, 1, 'Welcome new members!', NULL, GETDATE());
+
 GO
