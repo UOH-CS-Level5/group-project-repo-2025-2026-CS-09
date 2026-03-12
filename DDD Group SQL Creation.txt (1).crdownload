@@ -23,6 +23,7 @@ GO
 CREATE TABLE Posts (
 	PostID INT PRIMARY KEY,
 	SocietyID INT,
+	Title NVCHAR(100),
 	Text NVARCHAR(500),
 	Image IMAGE,
 	PostTime DATETIME,
@@ -77,4 +78,5 @@ CREATE TABLE  Message (
 	FOREIGN KEY (ChatID) REFERENCES Chats(ChatID),
 	FOREIGN KEY (SenderID) REFERENCES Users(UserID)
 );
+
 GO
