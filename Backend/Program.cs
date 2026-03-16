@@ -24,7 +24,7 @@ using Backend;
 
 SQLAccess SQLAccess = new SQLAccess();
 
-int userID = 3;
+int userID = 1;
 
 /*Chat chat = new Chat(SQLAccess);
 
@@ -61,7 +61,18 @@ Console.WriteLine("\nWrite a new message:");
 string message = Console.ReadLine();
 bool success = chat.newMessage((chatIDs[input-1]), userID, message);*/
 
-Posts posts = new Posts(SQLAccess);
+Posts posts = new Posts(SQLAccess, userID);
 
-List<int> postIDS = posts.usersSocIDs(userID);
-Console.ReadLine();
+List<int> postIDS = posts.SocIDs(userID);
+
+List<string> postNames = posts.posterName(userID);
+List<string> postTitles = posts.postTitles(userID);
+List<string> postText = posts.postText(userID);
+
+for (int a= 0; a < postTitles.Count; a++)
+{
+    Console.WriteLine(postTitles[a]);
+    Console.WriteLine(postText[a] + "\n");
+}
+
+bool test = posts.newPost(userID, "Test", "Test post");

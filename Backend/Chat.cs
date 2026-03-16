@@ -1,4 +1,7 @@
-﻿namespace Backend
+﻿using Microsoft.Data.SqlClient;
+using System.Data;
+
+namespace Backend
 {
     public class Chat
     {
@@ -110,9 +113,7 @@
             string messageCount = "SELECT MessageID FROM Message";
             List<int> messagesIDs = SQLAccess.readFromDatabase(messageCount).Cast<int>().ToList();
 
-
-            string sql = "INSERT INTO Message VALUES (" + (messagesIDs.Count + 1) + ", " + chatID + ", " + userID + ", '" + message + "', null, '" + sendTime + "')";
-
+            string sql = "INSERT INTO Message VALUES (" + (messagesIDs.Count + 1) + ", " + chatID + ", " + userID + ", '" + message + "', null, '" + sendTime.ToString("yyyy-MM-dd HH:mm:ss") + "')";
             try
             {
                 SQLAccess.writeToDatabase(sql);
