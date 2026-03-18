@@ -1,0 +1,125 @@
+/* Darker page background and top bar styling for MainLayout (scoped) */
+
+.page {
+    position: relative;
+    min-height: 100vh;
+    /* lighter shade for page background (was dark) */
+    background-color: #f5f6f7;
+    color: #0b1220;
+    display: flex;
+}
+
+main {
+    flex: 1;
+}
+
+/* Ensure sidebar stays visually distinct from main area */
+.sidebar {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    flex: 0 0 280px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+/* Top-row in MainLayout — white bar with subtle shadow */
+.top-row {
+    background-color: #ffffff;
+    box-shadow: 0 1px 4px rgba(2,6,23,0.12);
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 3.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/* Container to hold the search input (keeps spacing consistent) */
+.topbar-container {
+    width: 100%;
+    max-width: 720px;
+}
+
+/* Search input in top bar */
+.top-search {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(15, 23, 42, 0.08);
+    font-size: 0.95rem;
+    background: #f7fafc;
+    color: #0b1220;
+}
+
+/* Keep main content readable on light page background */
+.content {
+    flex: 1 1 auto;
+    padding-top: 1rem;
+}
+
+    .top-row ::deep a, .top-row ::deep .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+    .top-row ::deep a:hover, .top-row ::deep .btn-link:hover {
+        text-decoration: underline;
+    }
+
+    .top-row ::deep a:first-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row {
+        justify-content: space-between;
+    }
+
+    .top-row ::deep a, .top-row ::deep .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page {
+        flex-direction: row;
+    }
+
+    .sidebar {
+        width: 250px;
+    }
+
+    .top-row.auth ::deep a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row, article {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+
+#blazor-error-ui {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+    #blazor-error-ui .dismiss {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }
