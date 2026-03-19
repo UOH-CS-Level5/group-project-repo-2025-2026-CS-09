@@ -12,4 +12,4 @@ jobs:
       - uses: actions/checkout@v2
       - name: Copy to host directory
 
-      run: powershell Copy-Item -Path C:\Windows\System32\actions-runner\_work\* -Destination C:\inetpub\wwwroot -force
+        run: powershell Copy-Item -Path C:\Windows\System32\actions-runner\_work\* -Destination C:\inetpub\wwwroot -force
